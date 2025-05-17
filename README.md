@@ -31,12 +31,24 @@ A prototype web application that connects with Facebook and Instagram via Meta's
    ```bash
 
   https://github.com/anantasharma510/Auto-Instagram-Poster-with-Meta-API-Gemini-AI-with-Next-js
+npm install
 
-  .env.local
-  FACEBOOK_CLIENT_ID
-  FACEBOOK_CLIENT_SECRET
-  NEXTAUTH_URL
-  NEXTAUTH_SECRET
-  MONGODB_URI
-  GEMINI_API_KEY
-  NEXT_PUBLIC_SITE_URL
+# Facebook OAuth Credentials
+FACEBOOK_CLIENT_ID=your_facebook_app_id
+FACEBOOK_CLIENT_SECRET=your_facebook_app_secret
+
+# NextAuth Configuration
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret
+
+# MongoDB Connection URI
+MONGODB_URI=your_mongodb_connection_string
+
+# Google Gemini API Key
+GEMINI_API_KEY=your_gemini_api_key
+
+# Public Site URL
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+
+npm run dev
+
